@@ -60,7 +60,8 @@ class BookshopsSeeder extends Seeder
         // $bookshop->city = 'Prague';
         // $bookshop->name = 'HubHub';
         // $bookshop->save();
-
+        
+                                // $key                  // $value
         foreach ($bookshops as $name_of_city => $array_of_bookshops_in_that_city)
         {
             foreach ($array_of_bookshops_in_that_city as $bookshop_name)
